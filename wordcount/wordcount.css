@@ -1,0 +1,74 @@
+.word-count-container{
+    padding: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.word-count-container h2{
+    font-size: 42px;
+}
+.word-count-container textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border: 2px solid #14213d;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: block;
+    max-width: 800px;
+    line-height: 2;
+    margin: 0 auto;
+
+}
+.word-count-container .count-btn{
+    padding: 16px 48px;
+    margin: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #14213d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+.word-count-container .count-btn:hover {
+    background-color: #001219;
+}
+.word-count-container .word-result {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+} 
+.word-count-container .word-result span{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
