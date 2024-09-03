@@ -5,6 +5,8 @@ function displaytime() {
     var min = padZero(dateTime.getMinutes())
     var sec = padZero(dateTime.getSeconds())
 
+    // getting html elements using id's
+
     document.getElementById("hours").innerHTML = padZero(hr)
     document.getElementById("mins").innerHTML = min
     document.getElementById("sec").innerHTML = sec
