@@ -11,7 +11,7 @@ function displaytime() {
     document.getElementById("hours").innerHTML = padZero(hr)
     document.getElementById("mins").innerHTML = min
     document.getElementById("sec").innerHTML = sec
-
+// converting 12 hr format
     if (hr > 12) {
         hr = hr - 12
         ampm.innerHTML = "PM"
