@@ -17,7 +17,7 @@ function displaytime() {
         ampm.innerHTML = "PM"
     }
 }
-
+// adding zero for single numbers like 1 to 9 =>01,02
 function padZero(num) {
     return num < 10 ? "0" + num : num
 }
