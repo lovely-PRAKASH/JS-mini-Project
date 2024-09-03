@@ -21,6 +21,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,164,1) 47%, rgb
     padding: 1rem;
 
 }
+/* apply style using class container */
 .container span{
     margin-left: 10px;
 }
