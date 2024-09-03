@@ -1,4 +1,5 @@
 ampm = document.getElementById("ampm")
+// adding function to perform clock action
 function displaytime() {
     let dateTime = new Date()
     var hr = dateTime.getHours()
