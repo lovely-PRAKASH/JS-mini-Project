@@ -16,7 +16,7 @@ function changebg(){
     colortxt.innerHTML=hexcolor
     warp.style.backgroundColor=hexcolor
 }
-
+// rand val genrerator fn
 function randHexVal(){
     let randomindex= Math.floor(Math.random()*15)
     return hex[randomindex]
