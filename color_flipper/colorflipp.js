@@ -1,7 +1,7 @@
 const colortxt = document.getElementById("color")
 const warp = document.getElementById("warp")
 const btn = document.getElementById("btn")
-
+// array creation
 const hex=[0, 1, 2, 3, 4, 6, 7, 8, 9, 'A','B','C','D','E','F']
 
 btn.addEventListener('click', changebg)
